@@ -1,0 +1,11 @@
+print('=============== DESAFIO 04 =============== ')
+
+var1 = input('digite algo:')
+print('Vc digitou:',var1)
+print('O tipo primitivo de',var1,'é:',type(var1))
+print(var1,'é alfanumérico?',var1.isalnum())
+print(var1,'é 100% minusculo?',var1.islower())
+print(var1,'é 100% maiusculo?',var1.isupper())
+print(var1,'é alfabético?',var1.isalpha())
+print(var1,'é um numero?',var1.isdigit())
+print(var1,'está capitalizada?',var1.istitle())
